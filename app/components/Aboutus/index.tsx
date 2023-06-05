@@ -41,11 +41,12 @@ const Aboutus = () => {
                 <h4 className='text-center text-4xl lg:text-65xl font-bold'>Know more about us.</h4>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Aboutdata.map((item, i) => (
-                        <div key={i} className='hover:bg-navyblue bg-navyblue rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl'>
-                            <h4 className='text-4xl font-semibold  text-white mb-5'>{item.heading}</h4>
+                        <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group'>
+                            <h4 className='text-4xl font-semibold  text-black mb-5 group-hover:text-white'>{item.heading}</h4>
                             <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" />
-                            <h4 className='text-lg font-normal text-offwhite mb-5'>{item.paragraph}</h4>
-                            <Link href="#" className='text-lg font-semibold text-white hover-underline'>{item.link}
+                            <h4 className='text-lg font-normal text-black group-hover:text-offwhite mb-5'>{item.paragraph}</h4>
+                            <Link href="#" className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>
+                                {item.link}
                                 <ChevronRightIcon width={20} height={20} />
                             </Link>
                         </div>

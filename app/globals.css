@@ -47,7 +47,7 @@ html {
 .hover-underline {
   display: inline-flex;
   position: relative;
-  color: #ffffff;
+  /* color: #ffffff; */
   justify-content: center;
   align-items: center;
 }
