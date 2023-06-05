@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
-
 interface datatype {
     heading: string;
     imgSrc: string;

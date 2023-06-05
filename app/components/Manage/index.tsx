@@ -135,7 +135,6 @@ const Manage = () => {
                     </div>
                 </div>
 
-
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 mx-5 gap-14 manage'>
                     {filteredData.map((items, i) => (
                         <div className='manageTabs text-center p-10' key={i}>
