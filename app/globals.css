@@ -377,3 +377,16 @@ html {
 .imageContainer:hover>a>button {
   display: block;
 }
+
+.manage > div:nth-child(2) {
+  background-color: #00224A!important;
+  color: #ffffff;
+}
+
+.manage > div:nth-child(2) button {
+  color: #ffffff;
+}
+
+.manage > div:nth-child(2) h3 {
+  color: #747474;
+}
