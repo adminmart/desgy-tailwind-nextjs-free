@@ -24,7 +24,7 @@ export default function Home() {
       <Beliefs />
       <Wework />
       <Ourteam />
-      {/* <Featured /> */}
+      <Featured />
       <Manage />
       <FAQ />
       <Testimonials />

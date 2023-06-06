@@ -71,7 +71,7 @@ export default class MultipleItems extends Component {
             cssEase: "linear",
             responsive: [
                 {
-                    breakpoint: 420,
+                    breakpoint: 800,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
